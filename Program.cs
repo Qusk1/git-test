@@ -8,12 +8,19 @@
 
             for (int i = 0; i < 10; i++)
             {
-                Console.Write("#");
-
                 for (int j = 0; j < 10; j++)
                 {
-                    Console.Write("#");
+                    if ((j + i) % 2 == 0)
+                    {
+                        Console.Write("#");
+                    }
+                    else
+                    {
+                        Console.Write("¤");
+                    }
+                   
                 }
+                
                 Console.WriteLine();
             }
 
