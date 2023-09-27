@@ -5,6 +5,13 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, Git!");
+
+            Hej();
+        }
+
+        static void Hej()
+        {
+            Console.WriteLine("Hejhej");
         }
     }
 }
